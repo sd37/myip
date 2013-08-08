@@ -3,3 +3,6 @@ tags
 
 #ignore .o files
 *.o
+
+#ignore myip executable
+myip
