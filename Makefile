@@ -3,5 +3,5 @@
 all: 
 	g++ -o myip ./ip/ip.cpp
 clean:
-	rm -rf *.0
-	rm-rf myip
+	rm -rf *.o
+	rm -rf myip
