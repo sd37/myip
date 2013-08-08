@@ -1,0 +1,5 @@
+#ignore tag files
+tags
+
+#ignore .o files
+*.o
