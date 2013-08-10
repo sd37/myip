@@ -3,11 +3,12 @@ int main(int argc,char *argv[])
 {
 	if(argc <= 1)
 	{
-		printf("ip usage:\n");
+		printf("ip usage: Error\n");
 		return 0;
 	}
 
 	char *opt = argv[1];
-	printf("%s\n",opt);
+	IpFunc ip_call;
+	ip_call.make_call();
 return 0;
 }
