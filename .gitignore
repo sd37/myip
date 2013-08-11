@@ -4,5 +4,7 @@ tags
 #ignore .o files
 *.o
 
+#ignore all .swp files
+*.swp
 #ignore myip executable
 myip
