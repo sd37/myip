@@ -15,11 +15,11 @@ void* IpFunc::do_ipaddr(void*)
 
 void* IpFunc::do_ipmonitor(void*)
 {
-	printf("do_ipmonitor");
+	printf("do_ipmonitor\n");
 	return 0;
 }
 
-void IpFunc::make_call()
+void IpFunc::make_call(const string &s)
 {
-	(this->*ip_func_map["addr"])(NULL);
+	(this->*ip_func_map[s])(NULL);
 }

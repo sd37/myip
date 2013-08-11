@@ -11,5 +11,5 @@ class IpFunc
 		IpFunc();
 		void* do_ipaddr(void*);
 		void* do_ipmonitor(void*);
-		void make_call();
+		void make_call(const string &);
 }; 

@@ -7,8 +7,8 @@ int main(int argc,char *argv[])
 		return 0;
 	}
 
-	char *opt = argv[1];
+	string opt = argv[1];
 	IpFunc ip_call;
-	ip_call.make_call();
+	ip_call.make_call(opt);
 return 0;
 }
